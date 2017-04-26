@@ -1,0 +1,72 @@
+/*banner中间部分*/
+.section{
+  background:#616467 ;
+}
+.section div.banner{
+  width:1000px;
+}
+.section div.banner>h1{
+  width:150px;
+  font-size: 30px;
+  color:#DDDDDD;
+  margin:0 auto;
+  line-height: 30px;
+}
+.section div.banner>p{
+  width:100px;
+  height:8px;
+  background: #02B2B5;
+  margin-left:436px;
+  margin-top:30px;
+}
+div.section-block{
+  width: 900px;
+  margin:0 auto;
+  color:#02B2B5;
+}
+div.section-block:after{
+  content:'';
+  display: block;
+  clear:both;
+}
+div.section-block h3{
+  font-weight: bold;
+  font-size:20px;
+  margin-left:15px;
+}
+.section-block>.block-items{
+  width:180px;
+  margin-left: 40px;
+  margin-top: 30px;
+
+}
+.block-items>.circle{
+  position: relative;
+
+}
+.block-items>.circle>b{
+  display: inline-block;
+  width:100px;
+  height:100px;
+  border:1px solid #474B4F;
+  border-radius: 50px;
+  background:#474B4F;
+}
+.block-items>.circle>i{
+  display:inline-block;
+  width:35px;
+  height:40px;
+  border: 3px solid #999A9A;
+  position: absolute;
+  top:28px;
+  left:30px;
+}
+.block-items .items{
+  width:160px;
+  font-size: 14px;
+  color:#F6F6F8;
+  padding:0;
+}
+
+
+

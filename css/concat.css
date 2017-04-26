@@ -1,0 +1,142 @@
+
+.main .banner>h1{
+  width:100px;
+  margin:0 auto;
+  font-size: 28px;
+  font-weight: bold;
+  color:#02B2B5;
+}
+.main .banner>div.linear{
+  width:120px;
+  margin:0 auto;
+  border:1px solid #B9B9B9;
+  position: relative;
+  margin-top:10px;
+}
+div.linear>b{
+  width:60px;
+  position:absolute;
+  top:-3px;
+  left:20px;
+  border:3px solid #02B2B5;
+}
+.main .banner>p{
+  width:1000px;
+  text-align: center;
+  font-size:15px;
+  margin-top:10px;
+  padding-bottom: 20px;
+}
+.main .tubiao{
+  width:800px;
+  margin:0 auto;
+}
+.tubiao:after{
+  content:'';
+  display:block;
+  clear:both;
+}
+.tubiao p{
+  font-size:15px;
+}
+/*±íµ¥*/
+.main>.bg,.liuyanban{
+  position: relative;
+}
+.main>p{
+  font-size: 25px;
+  text-align: center;
+  padding: 20px 0;
+}
+.main>.bg>img{
+  opacity: .8;
+}
+.liuyanban>img{
+  opacity: .8;
+}
+.liuyanban>p.title{
+  position:absolute;
+  top:100px;
+  left:70%;
+}
+.liuyanban>b{
+  position: absolute;
+  top:0;
+  left:0;
+  background: #fff;
+  display:inline-block;
+  width:50%;
+  height:750px;
+  opacity: .3;
+}
+.liuyanban>.liuyan{
+  position:absolute;
+  top:150px;
+  left:55%;
+}
+.liuyanban>.liuyan>p,.liuyanban>p.title{
+  font-size:20px;
+  color:#fff;
+}
+.liuyan>.liuyan-block{
+  margin-top: 30px;
+}
+.liuyan>.liuyan-block>input[type='text']{
+  width:500px;
+  min-height:200px;
+}
+.liuyan-block>input[type='button']{
+  padding:5px;
+  margin-top:20px;
+  border-radius: 5px;
+}
+.liuyan-block>input[type='button']:hover{
+  cursor: pointer;
+}
+.main form{
+  width:800px;
+  height:400px;
+  position:absolute;
+  top:280px;
+  left:470px;
+  color:#F6F6F8;
+  font-size: 20px;
+}
+form>.form-group{
+  margin-bottom:30px;
+}
+.control-label{
+  display: inline-block;
+  width:80px;
+  text-align:left;
+  vertical-align: middle;
+}
+.form-control{
+  padding:5px;
+  border:1px solid #aaa;
+  border-radius: 2px;
+  width:220px;
+  vertical-align: middle;
+}
+.help-block{
+  font-size: 15px;
+  padding:3px 5px;
+  border:1px solid transparent;
+  border-radius: 2px;
+  color:#fff;
+}
+.primary{
+  background: #ccc;
+  border-color:#aaa ;
+}
+.danger{
+  background: #d22;
+  border-color: #a00;
+}
+.success{
+  background: #2d2;
+  border-color: #0a0;
+}
+.form-group>span{
+  margin-left: 15px;
+}

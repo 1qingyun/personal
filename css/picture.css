@@ -1,0 +1,133 @@
+.banner-bg>#slider{
+  width:1000px;
+  height:550px;
+  margin-top:20px;
+  position:relative;
+  overflow:hidden;
+}
+.banner-bg>#slider #img{
+  position:absolute;
+  top:0;
+  left:0;
+  height:200px;
+}
+.banner-bg>#slider #img li{
+  float:left;
+}
+.banner-bg>#slider #index{
+  position:absolute;
+  bottom:10px;
+  right:50%;
+}
+.banner-bg>#slider #index li{
+  display:inline-block;
+  width:10px;
+  height:10px;
+  line-height:20px;
+  background:#B7B7B7;
+  color:#fff;
+  border-radius: 5px;
+  cursor:pointer;
+  margin-left:8px;
+}
+.banner-bg>#slider #index li:hover,.banner-bg>#slider #index li.hover{
+  background: #E23838;
+}
+.banner>.hd{
+  position:relative;
+  min-height:50px;
+  margin:20px auto;
+}
+.hd>h3{
+  width:100px;
+  height:40px;
+  line-height:30px;
+  color:#7F7F7F;
+  font-size:18px;
+  border:1px solid transparent;
+  background:#F7F7F7;
+  text-align:center;
+  position:absolute;
+  top:0;
+  left:45%;
+  z-index:100;
+}
+.hd>b{
+  font-weight: normal;
+  border-top:1px solid #D3D9DF;
+  width:1000px;
+  position:absolute;
+  top:20px;
+  left:0;
+}
+/**bd-block六幅图像***/
+.bd>.bd-block:after{
+  content: '';
+  display:block;
+  clear:both;
+}
+.bd>.bd-block>li{
+  float:left;
+  height:260px;
+  margin-left:5px;
+}
+.bd>.bd-block>li>a{
+  display:block;
+}
+.bd>.bd-block>li:nth-child(1),.bd>.bd-block>li:nth-child(4){
+  margin-left:0;
+}
+.bd-block .bd-title{
+  display:block;
+  height:30px;
+  line-height:18px;
+  font-size:15px;
+  margin-left:20px;
+}
+.bd-block .bd-title:hover{
+  color:#DA4747;
+}
+.zhegaiceng{
+  background:#fff;
+  opacity:.9;
+}
+.pic-l{
+  float:left;
+}
+.pic-r{
+  margin-left:710px;
+}
+.pic-l .s-title-content{
+  width:680px;
+}
+/*右侧***/
+.pic-r .r-block{
+  width:280px;
+  height:200px;
+  position: relative;
+  margin-top:10px;
+}
+.pic-r .r-block>img{
+  width:280px;
+  height:200px;
+}
+.pic-r .r-block>.r-writer{
+  width:280px;
+  height:30px;
+  line-height:30px;
+  position:absolute;
+  top:170px;
+  right:-1px;
+  text-align:center;
+  font-size:13px;
+  background:linear-gradient(to top,#333,#574B4A);
+  opacity:.8;
+}
+.pic-r .r-block>.r-writer>a{
+  color:#fff;
+}
+.pic-r .r-history>li{
+  height:30px;
+}
+
+

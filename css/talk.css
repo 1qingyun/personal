@@ -1,0 +1,151 @@
+*{
+  box-sizing: border-box;
+}
+.main-bg{
+  width: 960px;
+  margin: 0 auto;
+}
+.main>p.t_title{
+  width:958px;
+  height:50px;
+  line-height: 50px;
+  border:3px dashed #02B2B5;
+  text-align:center;
+  margin:20px auto;
+  font-size:24px;
+  border-radius: 6px;
+}
+.main>.talk-block{
+  width: 1000px;
+  margin:20px auto;
+  height:100%;
+  overflow:hidden;
+}
+.talk-block>.talk-block-l{
+  width:450px;
+  border:1px solid #616467;
+
+}
+.talk-block-l>ul>li{
+  margin:20px auto;
+}
+.talk-block-l>ul li.hot-talk{
+  margin:0;
+  height:50px;
+  line-height:50px;
+  font-size: 25px;
+  color:#02B2B5;
+  text-align: center;
+  border-bottom: 2px dotted #666666;
+  background: #8B9391;
+}
+.talk-block-l>ul li.hot-talk>span{
+  color: #FA2712;
+  font-weight:bold ;
+  font-style: italic;
+}
+.talk-block-l>p.country{
+  font-size: 20px;
+  color:#333333;
+  font-weight: bold;
+  margin-top:20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.talk-block-l>p.country>span{
+  color:#02B2B5;
+  font-size: 25px;
+  font-weight: bold;
+}
+.talk-block-l>ul .problem{
+  font-size: 20px;
+  text-align:center;
+}
+.talk-block-l>ul .problem>span{
+  font-size: 25px;
+  color:#02B2B5;
+}
+.talk-block-l>p.l-title>span{
+  color:#02B2B5;
+  font-size: 18px;
+  font-weight: bold;
+}
+.talk-block-l>p{
+  margin-left: 5px;
+  font-size: 15px;
+  line-height: 30px;
+}
+.talk-block-l>h1{
+  margin:20px;
+  font-style: oblique;
+}
+.talk-block-l>h1>span{
+  color: #FF0000;
+  font-size: 26px;
+}
+/*talk-block-r*/
+.talk-block>.talk-block-r{
+  width:500px;
+  margin-left:500px;
+}
+.talk-block-r>h1{
+  text-align: center;
+}
+.talk-block-r>h1>span{
+  color:#F78B15;
+  font-size:30px;
+}
+.talk-block-r>p{
+  font-size: 15px;
+  line-height: 30px;
+}
+/**employment**/
+.employment{
+  width:500px;
+  margin-left:500px;
+  margin-top:20px;
+  font-size:20px;
+}
+.employment>h1{
+  text-align: center;
+}
+/**planning**/
+.planning{
+  width:500px;
+  margin-left:500px;
+  margin-top:20px;
+}
+.planning>h1>span{
+  font-style: italic;
+  color:#FF0000;
+  font-size:30px;
+}
+.planning>.planning-block{
+  font-size:15px;
+  line-height: 30px;
+}
+.planning>.planning-block>p.planning-title{
+  color:#02B2B5;
+  font-size:20px;
+  font-weight: bold;
+  margin:10px auto;
+}
+.planning-artical{
+  width:430px;
+  margin-top:20px;
+}
+.planning-artical>ul{
+  margin-top:20px;
+}
+.planning-artical>ul>li{
+  margin-top:20px;
+  font-size: 15px;
+}
+.zhiyetu{
+  margin-top:30px;
+  margin-left:33px;
+  border-radius: 5px;
+}
+.planning-artical>.lequ>li:hover a{
+  color:#D91600;
+}

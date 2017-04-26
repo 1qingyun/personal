@@ -1,0 +1,136 @@
+.banner>.t-pic{
+  width:1000px;
+}
+.banner>.t-pic>.t-l{
+  width:880px;
+  margin:0 auto;
+}
+.t-l>#slider{
+  width:880px;
+  height:400px;
+  position:relative;
+  margin-top:20px;
+  overflow:hidden;
+}
+.t-l>#slider #tupian{
+  position:absolute;
+  top:0;
+  left:0;
+  height:400px;
+}
+.t-l>#slider #tupian li{
+  float:left;
+}
+.t-l>#slider #tubiao{
+  position:absolute;
+  bottom:10px;
+  right:50%;
+}
+.t-l>#slider #tubiao li{
+  display:inline-block;
+  width:10px;
+  height:10px;
+  line-height:20px;
+  background:#B7B7B7;
+  color:#fff;
+  border-radius: 5px;
+  cursor:pointer;
+  margin-left:8px;
+}
+.t-l>#slider #tubiao li:hover,.t-l>#slider #tubiao li.hover{
+  background: #E23838;
+}
+.pic-items{
+  width:1000px;
+}
+.pic-block{
+  width:880px;
+  margin:0 auto;
+  margin-top:30px;
+}
+.pic-items >.pic-block:after{
+  content: '';
+  display: block;
+  clear:both;
+}
+.pic-block>li{
+  float:left;
+  margin-left:50px;
+  position: relative;
+}
+.mask{
+  width:350px;
+  height:45px;
+  font-size:18px;
+  position:absolute;
+  bottom:20px;
+  left:0;
+  color:#fff;
+  overflow:hidden;
+}
+.one{
+  background:rgba(10,142,211,.9);
+}
+.two{
+  background:rgba(221,150,0,.9);
+}
+.three{
+  background:rgba(52,164,110,.9);
+}
+.mask .writer{
+  margin-left:15px;
+}
+.mask>p{
+  font-size:15px;
+}
+.pic-block>li:hover .mask{
+  height:195px;
+  transition:all .3s ease-out;
+}
+/**旅游资讯**/
+.tr-intro{
+  width:1000px;
+}
+.tr-intro>.tr-hd,.tr-intro>.tr-line{
+  width:880px;
+  margin:0 auto;
+  font-size:28px;
+  color:#51B9EF;
+}
+.tr-line{
+  height:30px;
+  line-height:10px;
+}
+.tr-intro>.tr-line>b{
+  display:inline-block;
+  width:150px;
+  height:3px;
+  background:#51B9EF;
+  border:1px solid #51B9EF;
+}
+.tr-intro>.tr-line>i{
+  display:inline-block;
+  width:650px;
+  background:#B9E3F9;
+  height:3px;
+  border:1px solid #B9E3F9;
+}
+.info-block{
+  width:880px;
+  margin:0 auto;
+}
+.info-block .content-block-tu img{
+  width:200px;
+  height: 130px;
+}
+.info-block .content-writer{
+  margin-left:250px;
+}
+.info-block .content-writer>a:hover{
+  color:#DA3943;
+}
+.info-block .content-writer>p{
+  font-size: 15px;
+  height:20px;
+  line-height:20px;
+}
