@@ -331,7 +331,10 @@
   display:none;
 }
 .img-scale{
-  width:670px;
+  transition:transform .2s ease-out;
+}
+.news-tu .img-scale{
+  width:600px;
   transition:transform .2s ease-out;
 }
 .img-scale:hover{
